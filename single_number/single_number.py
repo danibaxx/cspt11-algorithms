@@ -4,8 +4,17 @@ Returns: an integer
 '''
 def single_number(arr):
     # Your code here
+    # set empty arr of dups
+    dups = []
+    # loop through the array
+    for i in range(len(arr) - 1):
+    # find all repeated elements and set to a new arr
+        for j in range(len(arr) - 1):
+            if arr[i] == arr[j] and arr[i] in dups:
+                dups.append(arr[i])
+    # return single element
+        return arr
 
-    pass
 
 
 if __name__ == '__main__':

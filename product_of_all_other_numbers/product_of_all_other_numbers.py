@@ -4,6 +4,7 @@ Returns: a List of integers
 '''
 def product_of_all_other_numbers(arr):
     # Your code here
+    return
 
     pass
 
